@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-image: url(pattern.png);
+}
+
+.big_box {
+    width: 30vw;
+    height: 20vh;
+    background-color: grey;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.word {
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: -10%;
+    left: 40%;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.timer {
+    background-color: lightcyan;
+    font-size: 4em;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
